@@ -63,7 +63,7 @@
 // export default config;
 
 export default ({ env }) => {
-  const client = env('DATABASE_CLIENT', 'sqlite');
+  const client = env('DATABASE_CLIENT', 'postgress');
 
   const connections = {
     sqlite: {

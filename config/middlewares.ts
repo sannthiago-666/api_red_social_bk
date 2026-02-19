@@ -7,7 +7,7 @@ export default [
     config: {
       origin: [
         "http://localhost:3000",
-        "https://api-red-social-mu.vercel.app/"
+        "https://apiredsocialbk-production.up.railway.app"
       ],
       methods: ["GET", "POST", "PUT", "DELETE"],
       headers: ["Content-Type", "Authorization"],

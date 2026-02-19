@@ -91,5 +91,7 @@ export default ({ env }) => {
       client,
       ...connections[client],
     },
+    
   };
 };
+

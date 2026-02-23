@@ -123,10 +123,10 @@ coverage
 
 .env
 .env.local
-license.txt
-exports
-.strapi
-dist
+.env.production
+.tmp
+.cache
 build
+dist
+node_modules
 .strapi-updater.json
-.strapi-cloud.json
